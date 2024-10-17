@@ -2,6 +2,7 @@ import './App.css'
 import Counter from './counter'
 import Users from './Users'
 import User from './User'
+import Posts from './posts'
 
 function App() {
   function handleClick(){
@@ -25,6 +26,8 @@ function App() {
       <Users></Users>
       <hr />
       <User></User>
+      <hr />
+      <Posts></Posts>
       <hr />
       <button onClick={handleClick}>Click Me</button>
       <button onClick={handleButton2}>CLick 2</button>
